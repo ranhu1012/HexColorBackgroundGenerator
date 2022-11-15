@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+#mybutton {
+  background: #4CAF50;
+  color: white;
+  padding: 3px 6px;
+  width: 140px;
+  height: 70px;
+  border: 2px solid linear-gradient(to right, red, gold);
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 3px #555;
+  border: none;
+
+  /*box-shadow: 2px 2px 3px #555;*/
+}
+
+#mybutton:hover {
+  transform: translate(3px, 5px) scale(1.2, 1.2);
+  
+  cursor: pointer;
+  outline: 3px solid white;
+  transition: all 0.3 ease-in;
+}
+
+h1 {
+  color: white;
+  margin: 20px auto;
+}
